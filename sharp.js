@@ -33,9 +33,9 @@ const processImage = (inputPath, outputPath, width) => {
     });
 };
 
-fs.readdirSync(target).forEach(image => {
+fs.readdirSync(target).forEach((image) => {
   const inputPath = `${target}/${image}`;
-  
+
   // Large version (800px)
   const largeOutput = path.resolve(destination, `${image.split('.').slice(0, -1).join('.')}-large.jpg`);
   processImage(inputPath, largeOutput, 800);

@@ -74,6 +74,7 @@ body {
   padding: 5px;
   background-color: $primary-color;
   overflow: hidden;
+  z-index: 20;
 }
 
 .navbar .nav-drawer.open {
@@ -115,46 +116,6 @@ body {
 }
 
 
-// .hero-image{
-//   background-size: cover;
-//   background-position: center;
-//   background-repeat: no-repeat;
-//   height: 50vh;
-//   display:flex;
-//   justify-content: center;
-//   align-items: center;
-//   border-bottom: 4px solid black;
-//   padding: 20px;
-
-// }
-
-// .hero-text{
-//   color: #fff;
-//   text-align: center;
-//   background: rgba(0, 0, 0, 0.5); 
-//   border-radius: 10px;
-//   max-width: 700px;
-//   padding: 20px;
-//   font-family: $primary-font;
-//   text-align: left;
-// }
-
-// .hero-text h2{
-//   font-size: 2em;
-//   font-weight: 700;
-  
-// }
-
-// .hero-text span{
-//   color: #009419;
-// }
-
-
-// .hero-text p{
-//   font-size: 0.9em;
-//   font-weight: 20px;
-// }
-
 /* Hero Section */
 .hero {
   position: relative;
@@ -189,6 +150,8 @@ body {
   padding: 20px;
   font-family: $primary-font;
   text-align: left;
+  z-index: 1;
+  position: relative;
 }
 
 /* Hero Heading */

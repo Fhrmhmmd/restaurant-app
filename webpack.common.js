@@ -30,10 +30,10 @@ module.exports = {
     ],
   },
   optimization: {
-    minimize: true, // ✅ Enable minimization
+    minimize: true,
     minimizer: [
-      `...`, // Keep default minimizers (JS)
-      new CssMinimizerPlugin(), // ✅ Minify CSS
+      '...',
+      new CssMinimizerPlugin(),
     ],
     splitChunks: {
       chunks: 'all',
