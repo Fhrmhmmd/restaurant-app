@@ -17,12 +17,12 @@ const Like = {
     const restaurants = await FavoriteRestaurantIdb.getAllRestaurants();
     const restaurantContainer = document.querySelector('#restaurants');
 
-    if(restaurants.length === 0){
+    if (restaurants.length === 0){
       restaurantContainer.innerHTML = '<p>Tidak ada resto favorit</p>';
-    }else{
+    } else {
       restaurants.forEach((restaurant) => {
-      restaurantContainer.innerHTML += createRestaurantListTemplate(restaurant);
-    });
+        restaurantContainer.innerHTML += createRestaurantListTemplate(restaurant);
+      });
     }
 
   },
