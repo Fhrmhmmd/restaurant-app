@@ -1,0 +1,41 @@
+{
+    "start_url": "./index.html",
+  "name": "EatStreet ",
+  "short_name": "EatStreet",
+  "description": "Find The best Restaurant in here",
+  "display": "standalone",
+  "background_color": "#FFFFFF",
+  "theme_color": "#243642",
+  "icons": [
+    {
+      "src": "/icons/icon-72x72.png",
+      "sizes": "72x72",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icons/icon-92x92.png",
+      "sizes": "92x92",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+        "src": "/icons/icon-144x144.png",
+        "sizes": "144x144",
+        "type": "image/png",
+        "purpose": "any"
+      },
+    {
+      "src": "/icons/icon-256x256.png",
+      "sizes": "256x256",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icons/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    }  
+  ]
+}
